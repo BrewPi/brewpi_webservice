@@ -29,6 +29,26 @@ Now start using the virtualenv:
 Install all required dependencies:
 
     pip install -r requirements.txt
+    
+# Setup
+
+Initialize the database:
+
+    python manage.py migrate
+    
+Create a superuser
+
+    python manage.py createsuperuser
+    
+# Run
+
+You can run the development server with:
+
+    python manage.py runserver_plus
+
+You can now point your browser to `http://localhost:8000` to access the
+root API frontend or to `http://localhost:8000/admin/` for the
+administration panel.
 
 
 

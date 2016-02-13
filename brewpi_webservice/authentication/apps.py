@@ -1,5 +1,4 @@
 from django.apps import AppConfig
 
-
-class RestConfig(AppConfig):
-    name = 'rest'
+class AuthenticationConfig(AppConfig):
+    name = 'authentication'

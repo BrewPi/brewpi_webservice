@@ -1,3 +1,6 @@
+# BrewPi web service
+[![Code Climate](https://codeclimate.com/github/BrewPi/brewpi_webservice/badges/gpa.svg)](https://codeclimate.com/github/BrewPi/brewpi_webservice)
+
 This is the very start of a new web service for BrewPi. It will provide a REST API to the BrewPi backend.
 For our current production version, see [brewpi-www](https://github.com/BrewPi/brewpi-www)
 

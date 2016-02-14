@@ -1,11 +1,11 @@
-This is the very start of a new web interface for BrewPi. It does not do anything yet.
+This is the very start of a new web service for BrewPi. It will provide a REST API to the BrewPi backend.
 For our current production version, see [brewpi-www](https://github.com/BrewPi/brewpi-www)
 
 # Install
 
 Install [Python 3.5](https://www.python.org/downloads/)
 
-Create a new virtualenv for brewpiweb. Easiest way to do this is with virtualenvwrapper. Install it through pip.
+Create a new virtualenv for brewpi_webservice. Easiest way to do this is with virtualenvwrapper. Install it through pip.
 
 For Windows:
 
@@ -18,12 +18,12 @@ For other systems:
 
 Create a new virtualenv:
 
-    mkvirtualenv brewpiweb
+    mkvirtualenv brewpiws
     
 
 Now start using the virtualenv:
     
-    workon brewpiweb
+    workon brewpiws
 
 
 Install all required dependencies:

@@ -3,6 +3,7 @@ from django.contrib.auth.models import User, Group
 from django.contrib.auth.admin import UserAdmin, GroupAdmin
 from django.utils.translation import ugettext as _
 
+
 class BrewPiAdminSite(AdminSite):
     """
     Custom Admin site for BrewPi
